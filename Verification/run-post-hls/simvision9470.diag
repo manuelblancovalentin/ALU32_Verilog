@@ -1,0 +1,77 @@
+*** Message Type: info ***
+When: Wed Oct 21 06:15:26 AM CDT 2020
+SimVision started.
+Version: TOOL:  simvision       18.09-s001
+User: mvalentin
+Host: coolr1.ece.northwestern.edu
+Platform: Linux/x86_64/2.6.32-431.el6.x86_64
+Started: Wed Oct 21 06:15:26 AM CDT 2020
+Command: /cad/cadence/XCELIUM1809/tools.lnx86/simvision/bin/simvision.exe -connect dc:coolr1.ece.northwestern.edu:60385 -nocopyright
+Work Directory: /home/mvalentin/ECE361_ALU_32/Verification/run-post-hls
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:15:27 AM CDT 2020
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:15:28 AM CDT 2020
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:15:29 AM CDT 2020
+Connect to Simulator
+      Design: worklib.ALU_32_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim   18.09-s001
+        User: mvalentin
+        Host: coolr1.ece.northwestern.edu
+Time Started: Wed Oct 21 06:15:25 AM CDT 2020
+  Process ID: 9396
+   Directory: /home/mvalentin/ECE361_ALU_32/Verification/run-post-hls
+     Command: xrun -access rwc -gui /home/mvalentin/ECE361_ALU_32/src/ALU_tb.v /home/mvalentin/ECE361_ALU_32/src/logic_unit_32.v /home/mvalentin/ECE361_ALU_32/src/full_fast_adder.v /home/mvalentin/ECE361_ALU_32/src/comparison_unit_32.v /home/mvalentin/ECE361_ALU_32/src/arithmetic_unit_32.v /home/mvalentin/ECE361_ALU_32/src/shift_unit_32.v /home/mvalentin/ECE361_ALU_32/src/mux4to1_32.v /home/mvalentin/ECE361_ALU_32/src/mux2to1_32.v /home/mvalentin/ECE361_ALU_32/src/nor_gate_32to1.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux_32.v /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux.v /home/mvalentin/ECE361_ALU_32/src/ALU_32.v
+
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:15:30 AM CDT 2020
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:17:13 AM CDT 2020
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Wed Oct 21 06:23:19 AM CDT 2020
+bad value "72": should be tree node
+    while executing
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "maxim::Signaldata::Cancel" line 1)
+    invoked from within
+"maxim::Signaldata::Cancel .waveWindow0.work.user.waveset.signaldata"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:42:53 AM CDT 2020
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:43:00 AM CDT 2020
+Create waveform window: "Waveform 2"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:43:22 AM CDT 2020
+Create waveform window: "Waveform 3"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:43:24 AM CDT 2020
+Delete waveform window: "Waveform 3"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:43:39 AM CDT 2020
+Delete waveform window: "Waveform 2"
+ 
+*** Message Type: info ***
+When: Wed Oct 21 06:43:47 AM CDT 2020
+Create waveform window: "Waveform 4"
+ 

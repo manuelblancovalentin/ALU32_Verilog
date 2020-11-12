@@ -1,0 +1,26 @@
+ In this project, you are asked to design a 32-bit ALU. It will be part of a single-cycle processor and will handle a small portion of the MIPS instruction set. This portion of the MIPS instruction set is:
+
+arithmetic: add, sub
+logical: and, xor, or, sll, srl
+conditional: slt, sltu
+
+Details about these instructions can be found in the front and back of your text. Please use only the components provided in the Projects folder under the Files->Project_Files tab (eecs361lib_alu). 
+
+Information about the design can be found in the class notes or on Appendix B of the textbook.
+
+NOTE: You must have the following input/output signals in your ALU:
+Input: Operand A (32 bits), Operand B (32 bits), Control signals (at least 4 bits)
+Output: Carryout, Overflow, Zero, Result (32 bits)
+
+THINGS TO TURN IN:
+
+1) VHDL/Verilog code for each individual bit (if you are using bitslice design). 
+2) VHDL/Verilog code of all 32 bits (with appropriate connections).
+3) A trace/simulation of an individual bit (for the bitslice if you are building it that way).
+4) A trace/simulation of 32 bits working in harmony.
+
+You do not have to follow the bit-slice design we covered in the lecture.  If you decide to do so, return all your VHDL code and simulations as detailed as possible. 
+
+Note that this is an individual assignment; each student should turn in his/her original work.
+
+The deadline for the project is end of day, Thursday, October 22nd. Please turn in your homework using Canvas.

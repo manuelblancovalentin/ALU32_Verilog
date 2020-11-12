@@ -1,0 +1,170 @@
+xrun: 18.09-s001: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	xrun	18.09-s001: Started on Oct 21, 2020 at 06:15:24 CDT
+xrun
+	-access rwc
+	-gui
+	/home/mvalentin/ECE361_ALU_32/src/ALU_tb.v
+	/home/mvalentin/ECE361_ALU_32/src/logic_unit_32.v
+	/home/mvalentin/ECE361_ALU_32/src/full_fast_adder.v
+	/home/mvalentin/ECE361_ALU_32/src/comparison_unit_32.v
+	/home/mvalentin/ECE361_ALU_32/src/arithmetic_unit_32.v
+	/home/mvalentin/ECE361_ALU_32/src/shift_unit_32.v
+	/home/mvalentin/ECE361_ALU_32/src/mux4to1_32.v
+	/home/mvalentin/ECE361_ALU_32/src/mux2to1_32.v
+	/home/mvalentin/ECE361_ALU_32/src/nor_gate_32to1.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux_32.v
+	/home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux.v
+	/home/mvalentin/ECE361_ALU_32/src/ALU_32.v
+file: /home/mvalentin/ECE361_ALU_32/src/ALU_tb.v
+	module worklib.ALU_32_tb:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/logic_unit_32.v
+	module worklib.logic_unit_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/full_fast_adder.v
+	module worklib.full_fast_adder:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/comparison_unit_32.v
+	module worklib.comparison_unit_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/arithmetic_unit_32.v
+	module worklib.arithmetic_unit_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/shift_unit_32.v
+	module worklib.shift_unit_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/mux4to1_32.v
+	module worklib.mux4to1_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/mux2to1_32.v
+	module worklib.mux2to1_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/nor_gate_32to1.v
+	module worklib.nor_gate_32to1:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate_32.v
+	module worklib.and_gate_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate_32.v
+	module worklib.or_gate_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate_32.v
+	module worklib.nor_gate_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate_32.v
+	module worklib.not_gate_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate_32.v
+	module worklib.xor_gate_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/xor_gate.v
+	module worklib.xor_gate:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/and_gate.v
+	module worklib.and_gate:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/nor_gate.v
+	module worklib.nor_gate:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/or_gate.v
+	module worklib.or_gate:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/not_gate.v
+	module worklib.not_gate:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux_32.v
+	module worklib.mux_32:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/eecs361lib_alu_Verilog/lib/mux.v
+	module worklib.mux:v
+		errors: 0, warnings: 0
+file: /home/mvalentin/ECE361_ALU_32/src/ALU_32.v
+	module worklib.ALU_32:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ALU_32_tb
+		not_gate_32
+		mux_32
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_32:v <0x25f39307>
+			streams:   2, words:   376
+		worklib.not_gate_32:v <0x3bf50905>
+			streams:   1, words:    96
+		worklib.mux2to1_32:v <0x7ae70f47>
+			streams:   2, words:   452
+		worklib.shift_unit_32:v <0x15043e7b>
+			streams:   1, words:   107
+		worklib.mux2to1_32:v <0x33f807f8>
+			streams:   2, words:   511
+		worklib.comparison_unit_32:v <0x5da78cc1>
+			streams:   1, words:   378
+		worklib.or_gate:v <0x186dabbc>
+			streams:   0, words:     0
+		worklib.not_gate:v <0x316c16ae>
+			streams:   0, words:     0
+		worklib.nor_gate:v <0x039c55fa>
+			streams:   0, words:     0
+		worklib.mux:v <0x0ef86cb3>
+			streams:   2, words:   368
+		worklib.and_gate:v <0x34dcf4bd>
+			streams:   0, words:     0
+		worklib.xor_gate:v <0x7f860c1e>
+			streams:   0, words:     0
+		worklib.mux2to1_32:v <0x36bb4127>
+			streams:   2, words:   415
+		worklib.nor_gate_32:v <0x1578d4e1>
+			streams:   2, words:   506
+		worklib.xor_gate_32:v <0x3a3ffa57>
+			streams:   1, words:   219
+		worklib.or_gate_32:v <0x79e05bfc>
+			streams:   2, words:   502
+		worklib.and_gate_32:v <0x7967f3e6>
+			streams:   2, words:   492
+		worklib.nor_gate_32to1:v <0x711a5128>
+			streams:   1, words:   129
+		worklib.ALU_32:v <0x3f2b65e8>
+			streams:   2, words:  1002
+		worklib.ALU_32_tb:v <0x3d7f7d8e>
+			streams:   8, words:  9343
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:               449      22
+		Registers:             273      12
+		Scalar wires:          438       -
+		Expanded wires:        133       6
+		Vectored wires:         18       -
+		Always blocks:         267       6
+		Initial blocks:          2       2
+		Cont. assignments:      10      25
+		Pseudo assignments:      3       3
+		Simulation timescale:  1fs
+	Writing initial simulation snapshot: worklib.ALU_32_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /cad/cadence/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm ALU_32_tb.clk ALU_32_tb.finish_simulation ALU_32_tb.counter ALU_32_tb.op_counter ALU_32_tb.ALU_OP_A ALU_32_tb.ALU_OP_B ALU_32_tb.ALU_OP_OUT ALU_32_tb.expected_result ALU_32_tb.num_errors ALU_32_tb.ALU_OVERFLOW ALU_32_tb.ALU_CARRYOUT ALU_32_tb.ALU_ZERO ALU_32_tb.ALU_CTL
+Created probe 1
+xcelium> run
+[5263] - VALIDATION: PASSED with no errors. ALU WORKING!
+Simulation complete via $finish(1) at time 5262500 PS + 0
+/home/mvalentin/ECE361_ALU_32/src/ALU_tb.v:184 			$finish;
+xcelium> 
